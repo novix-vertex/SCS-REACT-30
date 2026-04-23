@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <nav className='flex justify-between'>
-            <h4 className="logo font-[600]">BloomFi</h4>
+            <h4 className="logo font-[600] flex justify-center items-center"> <img src="/logo.webp" alt="" className='h-6' />BloomFi</h4>
             <menu className='flex gap-15 font-[600]'>
                 <a href="#">USD bloom</a>
                 <a href="#">Business</a>
