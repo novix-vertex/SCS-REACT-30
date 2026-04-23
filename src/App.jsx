@@ -8,7 +8,7 @@ import Other from './components/Other'
 
 const App = () => {
   return (
-    <main className='p-8 h-screen'>
+    <main className='p-8 bg-[#f5f5f5]'>
       <Navbar />
       <Hero />
       <Explore />
