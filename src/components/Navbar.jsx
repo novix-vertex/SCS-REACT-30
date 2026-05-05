@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center py-4 px-8'>
+        <nav className='flex justify-between items-center gap:8'>
             <h4 className="logo font-semibold flex items-center gap-2"> <img src="./logo.webp" alt="" className='h-6' />BloomFi</h4>
             <menu className='hidden md:flex gap-8 font-semibold'>
                 <a href="#">USD bloom</a>
